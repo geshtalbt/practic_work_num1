@@ -1,0 +1,16 @@
+[project]
+name = "ares-mission"
+version = "1.0.0"
+description = "Симулятор межпланетной миссии АРЕС-1"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+ares = "run_mission:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
