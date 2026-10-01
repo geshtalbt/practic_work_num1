@@ -1,48 +1,46 @@
 # Python Moduls — Учебные проекты и итоговые задания
 
-Добро пожаловать в мой учебный репозиторий по Python, здесь собраны практические задания а также итоговый проект.
+Добро пожаловать в мой учебный репозиторий по Python, здесь собраны практические задания и итоговый проект.
 
 ## 📂 Структура репозитория и ссылки на задания
 
 ### 1. Модули, пакеты и пространства имен
-* **Папка:** [`task1_1-1_3/`](https://github.com/geshtalbt/practic_work_num1/tree/main/task1_1-1_3)
+* **Папка:** [`task1_1-1_3/`](https://github.com/geshtalbt/practic_work_num1/tree/main/python_moduls/task1_1-1_3)
 * **Описание:** Практика создания и импорта пользовательских модулей (`mymodule.py`, `random.py`), а также работа со сложными пакетами геометрии (`geometry/` с подпапками и модулями `flat.py`, `solid.py`). Включает скрипты `taks_1_1.py`, `task_1_2.py`, `task_1_3.py`.
 
 ### 2. Работа со стандартной библиотекой
-* **Папка:** [`task2_1-2_2/`](https://github.com/geshtalbt/practic_work_num1/tree/main/task2_1-2_2)
+* **Папка:** [`task2_1-2_2/`](https://github.com/geshtalbt/practic_work_num1/tree/main/python_moduls/task2_1-2_2)
 * **Описание:** Задания на использование встроенных возможностей и модулей Python (`task_2_1.py`, `task_2_2.py`).
 
 ### 3. Продвинутые концепции
-* **Папка:** [`task3_1/`](https://github.com/geshtalbt/practic_work_num1/tree/main/task3_1)
+* **Папка:** [`task3_1/`](https://github.com/geshtalbt/practic_work_num1/tree/main/python_moduls/task3_1)
 * **Описание:** Практические скрипты для темы 3 (`task_3_1.py`).
 
 ### 4. Виртуальные окружения и менеджмент зависимостей
-* **Папка:** [`task4_1-4_3/`](https://github.com/geshtalbt/practic_work_num1/tree/main/task4_1-4_3)
+* **Папка:** [`task4_1-4_3/`](https://github.com/geshtalbt/practic_work_num1/tree/main/python_moduls/task4_1-4_3)
 * **Описание:** Основы работы с виртуальными окружениями (`.venv`), управление зависимостями (`requirements.txt`, `requirements-dev.txt`) и разработка локального пакета `textkit` с конфигурационным файлом `pyproject.toml`.
 
 ### 5. Архитектура приложений
-* **Папка:** [`task5_1-5_2/`](https://github.com/geshtalbt/practic_work_num1/tree/main/task5_1-5_2)
+* **Папка:** [`task5_1-5_2/`](https://github.com/geshtalbt/practic_work_num1/tree/main/python_moduls/task5_1-5_2)
 * **Описание:** Реализация задач пятого блока (`task_5_1.py`).
 
 ### 6. Дополнительные темы
-* **Папка:** [`task7_1/`](https://github.com/geshtalbt/practic_work_num1/tree/main/task7_1)
+* **Папка:** [`task7_1/`](https://github.com/geshtalbt/practic_work_num1/tree/main/python_moduls/task7_1)
 * **Описание:** Выполнение заданий седьмого модуля (`task_7_1.py`).
 
 ### 7. Итоговый проект: Симулятор межпланетной миссии «АРЕС-1»
-* **Папка:** [`final_task8/`](https://github.com/geshtalbt/practic_work_num1/tree/main/final_task8)
+* **Папка:** [`final_task8/`](https://github.com/geshtalbt/practic_work_num1/tree/main/python_moduls/final_task8)
 * **Описание:** Полноценный консольный симулятор полета космического корабля к Марсу.
   * Физические расчеты (формула Циолковского, расчет времени перелета).
   * Случайные события в пути с помощью планировщика `sched`.
   * Параллельный запуск флота в независимых потоках (`threading`) и сохранение хроники в CSV.
   * Установка в качестве консольной команды `ares` через `pyproject.toml`.
 
----
-
 ## 🚀 Быстрый старт (Итоговый проект)
 
 1. Перейдите в папку итогового проекта:
    ```bash
-   cd final_task8
+   cd python_moduls/final_task8
    ```
 2. Установите пакет в режиме разработки:
    ```bash
@@ -51,4 +49,3 @@
 3. Запустите симуляцию миссии:
    ```bash
    ares --days 30
-   ```
